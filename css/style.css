@@ -587,8 +587,44 @@ body {
 /*------------------About page----------------*/
 
 #about {
-  /* background: url(../images/about.jpg);
-  color: #fff;
-  height: 100%;
-  width: 100%; */
+  padding-top: 5%;
+  background: url(../images/about.jpg);
+  color: var(--color-secondary);
+  height: auto;
+  width: auto;
+}
+
+.title::before {
+  content: "";
+  background: var(--color-primary);
+  height: 5px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.title::after {
+  content: "";
+  background: var(--color-primary);
+  height: 10px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(-7.5px);
+}
+
+.imageCircle {
+  display: block;
+  height: 300px;
+  width: 300px;
+  border-radius: 100%;
+  -webkit-filter: drop-shadow(0px 0px 10px #fff);
+  filter: drop-shadow(0px 0px 10px #fff);
+  border: 2px solid #fff;
+}
+
+.fa-download {
+  color: var(--color-primary);
 }
