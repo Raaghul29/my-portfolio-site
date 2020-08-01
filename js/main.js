@@ -10,21 +10,14 @@ menuBtn.addEventListener('click', () => {
     }
 });
 
-// jQuery(document).ready(function ($) {
-//     var alterClass = function () {
-//         var ww = document.body.clientWidth;
-//         if (ww > 991) {
-//             $('.navbar-collapse').removeClass('show');
-//             menuBtn.classList.remove('open');
-//             menuOpen = false;
-//         }
-//     };
-//     $(window).resize(function () {
-//         alterClass();
-//     });
-//     //Fire it when the page first loads:
-//     alterClass();
-// });
+function donloadCV() {
+    location.href = "https://drive.google.com/file/d/1M2sPKbFCYl9GEz9-83vbkfzGT0fpnEG3/view?usp=sharing";
+}
+$(document).ready(function () {
+    $("#downloadCV").click(function () {
+        window.open("https://drive.google.com/file/d/1M2sPKbFCYl9GEz9-83vbkfzGT0fpnEG3/view?usp=sharing", "_blank");
+    });
+});
 
 $(".nav-item .nav-link").on("click", function () {
     $(".nav-link").find(".active").removeClass("active");
