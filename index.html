@@ -37,16 +37,14 @@
                         <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Experience</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Education</a>
+                        <a class="nav-link" href="#">Skils</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <button class="btn-custom" name="hireMe"> <span class="fa fa-envelope"></span> Hire Me</button>
+                        <button class="btn-custom-dark" name="hireMe"> <span class="fa fa-envelope"></span> Hire
+                            Me</button>
                     </li>
                 </ul>
             </div>
@@ -80,31 +78,65 @@
             <h2 class="text-center"><Strong>LET ME INTRODUCE MYSELF.</Strong></h2>
             <div class="title"></div><br /><br />
             <div class="row">
-                <div class="col-xs-6 mb-5 mb-lg-0 mx-auto">
+                <div class="col-xs-6 mb-5 mb-lg-0 mx-auto my-auto">
                     <img src="./images/myImage.jpg" class="imageCircle" alt="">
                 </div>
                 <div class="col-md-6 mx-auto">
-                    <p>
+                    <p class="description">
                         Hello, everyone call me <italic>Raaghul</italic>. I am a workhloic person, but donot pannic I do
                         what i love to do. Being vegitarian is hard sometimes but experimenting always happens. Oh yes,
                         I'm an aspiring Full Stack Developer (Front End, Backend, DataBase, Cloud, etc...) which is my
                         passion.
                     </p>
-                    <p>Oh yeah, I am a highly motivated, passionate hard-core web developer with diverse experience in
+                    <p class="description">Oh yeah, I am a highly motivated, passionate hard-core web developer with
+                        diverse experience in
                         developing web applications, hybrid mobile apps, and cloud computing solutions ranging from
                         working on cute layouts, payment gateways etcetera and the list goes on till making a clone,
                         better than Facebook. Yup, you heard it right. I did make a clone of our favourite social
                         network from scratch.</p>
-                    <button class="btn-custom btn-center text-center" id="downloadCV"> <span
-                            class="fa fa-download"></span>
-                        Download CV</button>
+                    <div class="container p-0">
+                        <button class="btn-custom-lite btn-center text-center" id="downloadCV"> <span
+                                class="fa fa-download"></span>
+                            Download CV</button></div>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <section id="parallax1" class="home-section parallax" data-stellar-background-ratio="0.5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="color-light">
+                        <h2 class="wow bounceInDown" data-wow-delay="0.5s">Details are the key for perfection</h2>
+                        <p class="lead wow bounceInUp" data-wow-delay="1s">We mix all detailed things together</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------------------------Skills Section------------------------------>
+
+    <section id="skills">
+        <div class="container">
             <h2 class=" mt-5 text-center">SKILLS</h2>
             <div class="title"></div>
-            <div class=" row mx-auto mt-5">
-                <div class="col-md-4">
-                    <div class="card mb-5">
+            <div class="row mt-5">
+                <div class="col-lg-7 mx-auto p-md-0">
+                    <p class="description">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque eum fugit ipsum saepe
+                        explicabo
+                        blanditiis! Facere sed dolorem ipsum officiis beatae et reiciendis
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta voluptatum expedita optio porro,
+                        temporibus provident obcaecati deserunt est pariatur consectetur inventore dolorum alias eveniet
+                        repellendus velit odit officia facere quidem!
+                    </p>
+                </div>
+            </div>
+            <div class=" row">
+                <div class="col-md-4 p-5">
+                    <div class="card mb-5 mx-auto">
                         <img class="card-img-top" src="./images/Banner/webdesignlogo1.gif" alt="Card image cap">
                         <div class="card-body text-center">
                             <h5 class="card-title">WEB DESIGNING</h5>
@@ -114,8 +146,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-5">
-                    <div class="card">
+                <div class="col-md-4 p-5">
+                    <div class="card mb-5 mx-auto">
                         <img class="card-img-top" src="./images/Banner/Middlewarelogo.gif" alt="Card image cap">
                         <div class="card-body text-center">
                             <h5 class="card-title">MIDDLEWARE / BACKEND</h5>
@@ -125,8 +157,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card">
+                <div class="col-md-4 p-5">
+                    <div class="card mx-auto">
                         <img class=" card-img-top" src="./images/Banner/Cloud-Gif.gif" alt="Card image cap">
                         <div class="card-body text-center">
                             <h5 class="card-title">CLOUD ARCHITECHTURE</h5>
@@ -135,6 +167,15 @@
                                 of the card's content.</p>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <h2 class="text-center">Experience</h2>
+            <div class="title mb-5"></div>
+            <div class="row">
+                <div class="col-md-7">
+
                 </div>
             </div>
         </div>
@@ -153,6 +194,7 @@
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
     <script src="./js/main.js"></script>
+    <script src="./js/wow.min.js"></script>
 </body>
 
 </html>
