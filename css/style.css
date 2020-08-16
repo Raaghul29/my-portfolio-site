@@ -693,9 +693,9 @@ body {
   border: 2px solid #fff;
 }
 
-#parallax1 {
-  background-image: url(../images/parallex/2.jpg);
-}
+.parallax-window {
+  background: transparent;
+} 
 
 .home-section {
   width: 100%;
